@@ -1,0 +1,20 @@
+{% load static %}
+<html>
+
+
+ <link rel="stylesheet" type="text/css" href="/static/css/skeleton.css">
+<body>
+
+  <div class="container"><div id="content"></div></div>
+</body>
+
+{% block scripts %}
+  <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="https://fb.me/react-15.0.1.js"></script>
+  <script src="https://fb.me/react-dom-15.0.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+  <script type="text/babel" src="/static/js/main.js"></script>
+
+  {% endblock %}
+
+</html>
