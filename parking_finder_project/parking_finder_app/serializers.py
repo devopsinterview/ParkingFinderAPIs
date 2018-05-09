@@ -12,4 +12,5 @@ class ParkingSpaceSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
     def get_pricing_details(self, obj):
-        return {'pricing_per_hour': '$3.00'}
+        return {'pricing_per_hour': '$3.00',
+                'pricing_per_day': '$30.00'}
