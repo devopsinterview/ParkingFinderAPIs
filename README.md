@@ -14,4 +14,4 @@
     * git clone https://github.com/osg9c1/ParkingFinderAPIs.git
 * Run the App    
     * cd ParkingApp/parking_finder_directory
-    * python manage.py runserver
+    * python manage.py runserver 0.0.0.0:8000
